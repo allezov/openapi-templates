@@ -34,11 +34,11 @@ setup(
     url="https://github.com/allezov/openapi-templates.git",
     install_requires=REQUIRES,
     packages=[
-        '.dm_api_account',
-        '.dm_api_account.api',
-        '.dm_api_account.apis',
-        '.dm_api_account.model',
-        '.dm_api_account.models'
+        'dm_api_account',
+        'dm_api_account.api',
+        'dm_api_account.apis',
+        'dm_api_account.model',
+        'dm_api_account.models'
     ],
     include_package_data=True,
 )
