@@ -34,6 +34,6 @@ setup(
     author_email="author@email.ru",
     url="https://github.com/allezov/openapi-templates.git",
     install_requires=REQUIRES,
-    packages=find_packages(exclude=["test", "tests"]),
+    ackages=['dm_api_account.dm_api_account'],
     include_package_data=True,
 )
