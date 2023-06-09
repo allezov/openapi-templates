@@ -13,15 +13,15 @@
 __version__ = "v1"
 
 # import ApiClient
-from dm_api_account.dm_api_account.api_client import ApiClient
+from dm_api_account.api_client import ApiClient
 
 # import Configuration
-from dm_api_account.dm_api_account.configuration import Configuration
+from dm_api_account.configuration import Configuration
 
 # import exceptions
-from dm_api_account.dm_api_account.exceptions import OpenApiException
-from dm_api_account.dm_api_account.exceptions import ApiAttributeError
-from dm_api_account.dm_api_account.exceptions import ApiTypeError
-from dm_api_account.dm_api_account.exceptions import ApiValueError
-from dm_api_account.dm_api_account.exceptions import ApiKeyError
-from dm_api_account.dm_api_account.exceptions import ApiException
+from dm_api_account.exceptions import OpenApiException
+from dm_api_account.exceptions import ApiAttributeError
+from dm_api_account.exceptions import ApiTypeError
+from dm_api_account.exceptions import ApiValueError
+from dm_api_account.exceptions import ApiKeyError
+from dm_api_account.exceptions import ApiException
